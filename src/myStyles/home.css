@@ -1,6 +1,13 @@
+.nav1{
+    width: 100%;
+    height: 70px;
+    background-color: aquamarine;
+}
 .nav3{
     padding-left: 600px;
 }
+
+
 .flex1{
     display: flex;
 }
@@ -13,8 +20,18 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 740px) {
     /* For mobile phones: */
+    .nav1{
+        width: 100%;
+    }
+    
+    .navflex{
+        display: flex;
+    }
+    .navbtn{
+        margin-left: 500px;
+    }
     .flex1{
         flex-direction: column;
     }
