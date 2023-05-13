@@ -1,6 +1,7 @@
 import React from 'react'
 import myStyle from '../myStyles/Home'
 import kuda1 from '../pics/kuda1.jpg'
+import '../myStyles/home.css'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -51,7 +52,7 @@ const Home = () => {
                 
                 </ul>
                 <div style={myStyle.nav3}>
-                <Link  to="./Login" className='d-flex' > Sign In   </Link>
+                <Link  to="./Login" className='nav3' > SignIn   </Link>
                 </div>
                 
                  </div>
@@ -65,7 +66,7 @@ const Home = () => {
         
         
         
-        <div style={myStyle.flex}>    
+        <div  className='flex1'>    
             <div style={myStyle.font1}>
               <div style={myStyle.font11}> 
                 <h1> We’re the bank of <br/>the free</h1>
@@ -85,7 +86,7 @@ const Home = () => {
         </div> 
 
          
-            <div style={myStyle.flex}>
+            <div style={myStyle.flex} >
           
                   <div className='ms-5 card' style={myStyle.font21}>
                         

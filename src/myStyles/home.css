@@ -1,0 +1,11 @@
+.nav3{
+    padding-left: 600px;
+}
+
+@media  (min-width:360) and (max-with:740) {
+    .flex1{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+}

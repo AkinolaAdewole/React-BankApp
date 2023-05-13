@@ -16,7 +16,7 @@ let myStyle ={
      },
 
      nav3:{
-        padding:"0px 500px"
+        padding:"0px 100px"
     },
 
         
