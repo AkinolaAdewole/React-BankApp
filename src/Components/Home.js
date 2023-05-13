@@ -86,7 +86,7 @@ const Home = () => {
         </div> 
 
          
-            <div style={myStyle.flex} >
+            <div  className='flex1 m2'>
           
                   <div className='ms-5 card' style={myStyle.font21}>
                         
@@ -140,7 +140,7 @@ const Home = () => {
            
            
            
-           <div className='d-flex' style={myStyle.font22}>
+           <div className='flex1' style={myStyle.font22}>
                 
                 <div className='card mt-3' style={myStyle.font221}>
                     <div className="card-icon--spacing ps-3 pt-2">

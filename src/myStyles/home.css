@@ -1,11 +1,21 @@
 .nav3{
     padding-left: 600px;
 }
+.flex1{
+    display: flex;
+}
+.m1{
+      margin-top: 20px;
+}
 
-@media  (min-width:360) and (max-with:740) {
+.m2{
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
     .flex1{
         flex-direction: column;
-        margin-top: 10px;
     }
-    
-}
+  }
