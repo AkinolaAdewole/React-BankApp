@@ -26,9 +26,7 @@ let myStyle ={
             // backgroundColor:"yellow"
         },
         
-        font22:{
-            margin:"0px 250px"
-        },
+       
         font221:{
             height:"100px",
             width:"350px",

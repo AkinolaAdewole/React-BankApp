@@ -4,7 +4,7 @@
     background-color: aquamarine;
 }
 .nav3{
-    padding-left: 600px;
+    padding-left: 400px;
 }
 
 
@@ -18,21 +18,45 @@
 .m2{
     margin-top: 30px;
 }
+.ms1{
+    margin-left: 20px;
+}
 
-
+.margin3{
+    margin-left: 300px;
+}
+.btn1{
+    background-color:#40196d;
+    width:100px;
+    height:46px;
+    border:20px;
+}
 @media only screen and (max-width: 740px) {
     /* For mobile phones: */
     .nav1{
         width: 100%;
     }
+    .navflex{
+        display:flex;
+    }
+    .margin3{
+        margin-left: 45px;
+    }
     
+    .mq{
+        margin-top: 10px;
+    }
     .navflex{
         display: flex;
     }
     .navbtn{
-        margin-left: 500px;
+        margin-left: 480px;
     }
     .flex1{
         flex-direction: column;
+    }
+    .ms1{
+        margin-left: 0px;
+        margin-top: 10px;
     }
   }
