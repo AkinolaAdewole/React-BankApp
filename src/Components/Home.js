@@ -110,7 +110,8 @@ const Home = () => {
                           </path></svg>
                         </div>
                   
-                        <div className='ps-3 pt-2'style={myStyle.color1} > We’ll give you a free debit card. Order it <br /> right in the app.</div>
+                        <div className='ps-3 pt-2'style={myStyle.color1} > We’ll give you a free debit card. Order it <br /> 
+                            right in the app.</div>
                   </div>
 
                   
